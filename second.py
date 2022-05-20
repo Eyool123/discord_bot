@@ -6,12 +6,12 @@ import boto3
 
 
 client = discord.Client()
-TOKEN = 'OTc2NzQwODc4MTc1NTk2NTQ0.G43F9J.rpZjAUco9HU4Lugok6gEw59Va-P1PYl_2EjQ8w'
+TOKEN = '*'
 
 
 ec2 = boto3.resource('ec2', "eu-central-1",
-            aws_access_key_id="AKIASEOUW2XHKWF4Y2BL",
-            aws_secret_access_key= "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")
+            aws_access_key_id="*",
+            aws_secret_access_key= "*")
 
 instance = ec2.Instance("i-0cde512d5bcdbf8d0")
 
